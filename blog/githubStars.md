@@ -35,8 +35,6 @@ top: true
 
 > [reactjs-interview-questions](https://github.com/semlinker/reactjs-interview-questions)
 
-> [front-end-interview-handbook](front-end-interview-handbook)
-
 > [Awsome-Front-End-learning-resource](https://github.com/helloqingfeng/Awsome-Front-End-learning-resource)
 
 > [Front-end-Web-Development-Interview-Question](https://github.com/paddingme/Front-end-Web-Development-Interview-Question)

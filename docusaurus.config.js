@@ -163,7 +163,19 @@ const config = {
 
         //... other Algolia params
       }
-    })
+    }),
+  themes: [
+    // ... Your other themes.
+    // 搜索插件
+    // [
+    //   require.resolve('@easyops-cn/docusaurus-search-local'),
+    //   /** @type {import("@easyops-cn/docusaurus-search-local").PluginOptions} */
+    //   ({
+    //     hashed: true,
+    //     language: ["en", "zh"],
+    //   })
+    // ]
+  ]
 };
 
 module.exports = config;
