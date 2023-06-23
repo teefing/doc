@@ -139,7 +139,7 @@ const config = {
         appId: 'GYHZ32VI79',
 
         // Public API key: it is safe to commit it
-        apiKey: 'b8a1cace4064416b975618a34367f2f1',
+        apiKey: '74114c92bd997c07d6ad81632aa97409',
 
         indexName: 'blog',
 
@@ -167,14 +167,16 @@ const config = {
   themes: [
     // ... Your other themes.
     // 搜索插件
-    // [
-    //   require.resolve('@easyops-cn/docusaurus-search-local'),
-    //   /** @type {import("@easyops-cn/docusaurus-search-local").PluginOptions} */
-    //   ({
-    //     hashed: true,
-    //     language: ["en", "zh"],
-    //   })
-    // ]
+    [
+      // @ts-ignore
+      require.resolve('@easyops-cn/docusaurus-search-local'),
+      /** @type {import("@easyops-cn/docusaurus-search-local").PluginOptions} */
+      // @ts-ignore
+      ({
+        hashed: true,
+        language: ["en", "zh"],
+      })
+    ]
   ]
 };
 
